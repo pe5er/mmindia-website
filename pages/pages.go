@@ -28,3 +28,6 @@ func News(c *gin.Context) {
 func History(c *gin.Context) {
 	sHTML(c, 200, "history.html", nil)
 }
+func Team(c *gin.Context) {
+	sHTML(c, 200, "team.html", nil)
+}
