@@ -21,9 +21,13 @@ func routes() *gin.Engine {
 	e.GET("/news", p.News)
 	e.GET("/robots.txt", p.Robots)
 	e.GET("/privacy", p.Privacy)
-	e.GET("/history", p.History)
 	e.GET("/contact", p.Contact)
-	e.GET("/team", p.Team)
+        e.GET("/team", p.Team)
+        e.GET("/pm", p.Pm)
+        e.GET("/ethics", p.Ethics)
+        e.GET("/docs", p.Documents)
+        e.GET("/blog", p.Blog)
+        e.GET("/login", p.Login)
 	e.Static("/css", "static/css/")
 
 	return e
