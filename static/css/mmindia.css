@@ -10,11 +10,11 @@ body {
 .header {
  margin-bottom:0;
  margin-top:0;
- background-color: blue;
+ background-color: aqua;
  background-size: cover;
  border-radius: 0 !important;
  color: white;
- height: 400px;
+ height: 300px;
 }
 
 .footer {
