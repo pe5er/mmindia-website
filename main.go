@@ -8,6 +8,7 @@ import (
   "github.com/gin-gonic/gin"
 )
 
+
 func main() {
 
   gin.SetMode(gin.ReleaseMode)
@@ -21,5 +22,4 @@ func main() {
   r.LoadHTMLGlob("templates/*")
 
   r.Run(":8081")
-
 }

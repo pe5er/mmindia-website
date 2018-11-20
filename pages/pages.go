@@ -43,4 +43,7 @@ func Blog(c *gin.Context) {
 func Login(c *gin.Context) {
         sHTML(c, 200, "login.html", nil)
 }
+func Userarea(c *gin.Context) {
+        sHTML(c, 200, "userarea.html", nil)
+}
 

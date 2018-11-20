@@ -28,6 +28,7 @@ func routes() *gin.Engine {
         e.GET("/docs", p.Documents)
         e.GET("/blog", p.Blog)
         e.GET("/login", p.Login)
+	e.GET("/userarea", p.Userarea)
 	e.Static("/css", "static/css/")
 
 	return e

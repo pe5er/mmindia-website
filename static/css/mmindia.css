@@ -10,6 +10,7 @@ body {
 .header {
  margin-bottom:0;
  margin-top:0;
+ background-image: url("https://gistcdn.githack.com/pe5er/ccfa508b05282c2956e5ddcf5036c47f/raw/420895d2f1f30e9a886284b3338bbe3a1e1581b2/mmindia-banner.svg");
  background-color: aqua;
  background-size: cover;
  border-radius: 0 !important;
